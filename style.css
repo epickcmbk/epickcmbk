@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #2c3e50;
+  }
+  
+  .teams {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+  }
+  
+  .team {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  
+  .team img {
+    width: 80px;
+    height: auto;
+  }
+  
+  .team ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lineup {
+    background: #d8d8d8;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .lineup table {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    border-collapse: collapse;
+  }
+  
+  .lineup th, .lineup td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .lineup th {
+    background-color: #d8d8d8;
+    color: #fff;
+  }
+  
+  .video-section {
+    margin: 20px 0;
+  }
+  
+  .video-unavailable {
+    background-color: #d8d8d8;
+    color: white;
+    padding: 50px;
+    font-size: 10px;
+  }
+  
+  .feedback, .poll {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  input[type=\"text\"], textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  .rtarkib{
+    background-color: #ffffff;
+    border: 20px;
+    border-radius: 5px;
+  }
+  .btarkib{
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  .asr{
+    text-align: center;
+  }
+  .asb {
+    text-align: right;
+  }
+  .fikr{
+    text-align: right
+  }
+  .isim{
+    text-align: right;
+  }
+  .tex{
+    text-align: right;
+  }
+  .fikr{
+    text-align: right;
+  }
+  .me{
+    text-align: start;
+  }
+  .sharh{
+    border: 20px;;
+    background-color: #ffffff;
+    border: 20px;
+    border-radius: 5px;
+  }
